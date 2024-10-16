@@ -30,8 +30,8 @@ const projects = (await getCollection("work"))
     <div class="wrapper stack gap-8 lg:gap-20">
       <header class="hero">
         <Hero
-          title="Hello, my name is Jeanine White"
-          tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+          title="Hello, je m'appelle Yoann Guion"
+          tagline="Je suis un développeur web Fullstack actuellement basé dans la banlieue bordelaise"
           align="start"
         >
           <div class="roles">
@@ -52,7 +52,7 @@ const projects = (await getCollection("work"))
       <Skills />
     </div>
 
-    <main class="wrapper stack gap-20 lg:gap-48">
+    <main class="wrapper stack gap-15 lg:gap-48">
       <section class="section with-background with-cta">
         <header class="section-header stack gap-2 lg:gap-4">
           <h3>Selected Work</h3>
@@ -81,24 +81,6 @@ const projects = (await getCollection("work"))
           </CallToAction>
         </div>
       </section>
-
-      <div class="gallery">
-        <Grid variant="small">
-          {
-            [
-              "Medium",
-              "BuzzFeed",
-              "The Next Web",
-              "awwwards.",
-              "TechCrunch",
-            ].map((brand) => (
-              <li class="mention-card">
-                <p>{brand}</p>
-              </li>
-            ))
-          }
-        </Grid>
-      </div>
     </main>
   </div>
 

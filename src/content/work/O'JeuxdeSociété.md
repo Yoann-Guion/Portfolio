@@ -1,14 +1,15 @@
 ---
-title: Markdown Mystery Tour
-publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+title: O'Jeux de Société
+publishDate: 2024-08-02 00:00:00
+img: /assets/OJDS-accueil.png
+img_alt: Page d'accueil du site O'Jeux de Société
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Projet de fin de formation DWWM fait en 1 mois par une équipe de 5 étudiants
 tags:
-  - Design
-  - Dev
+  - Next.js
+  - Symfony
   - User Testing
+link: https://o-jeux-de-societe.fr/
 ---
 
 ## Level-two heading
