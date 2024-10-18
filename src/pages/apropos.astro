@@ -253,6 +253,17 @@ import Icon from "../components/Icon.astro";
           </div>
         </div>
       </section>
+      <section>
+        <h2 class="section-title">Curriculum Vitæ</h2>
+        <div class="content content-cv">
+          <img class="content-cv-img" src="/img/CV-YG.png" />
+          <a
+            href="/img/cv-yg.pdf"
+            download="CV_Yoann-Guion.pdf"
+            class="content-cv-pdf">Télécharger mon CV (PDF)</a
+          >
+        </div>
+      </section>
     </main>
 
     <ContactCTA />
@@ -324,6 +335,20 @@ import Icon from "../components/Icon.astro";
   .skills-logo svg {
     width: 1.5rem;
     height: auto;
+  }
+
+  .content-cv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-cv-img {
+    width: 50%;
+    height: auto;
+  }
+
+  .content-cv-pdf {
+    margin-top: 1.5rem;
   }
 
   @media (min-width: 50em) {

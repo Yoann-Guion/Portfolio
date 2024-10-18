@@ -1,7 +1,7 @@
 ---
 title: O'Jeux de Société
 publishDate: 2024-08-02 00:00:00
-img: /assets/OJDS-accueil.png
+img: /assets/img/OJDS-accueil.png
 img_alt: Page d'accueil du site O'Jeux de Société
 description: |
   Projet de fin de formation DWWM fait en 1 mois par une équipe de 5 étudiants
