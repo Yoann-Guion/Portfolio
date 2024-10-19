@@ -1,38 +1,59 @@
 ---
 title: O'Jeux de Société
 publishDate: 2024-08-02 00:00:00
-img: /assets/img/OJDS-accueil.png
+img: /img/OJDS-accueil.png
 img_alt: Page d'accueil du site O'Jeux de Société
 description: |
   Projet de fin de formation DWWM fait en 1 mois par une équipe de 5 étudiants
 tags:
   - Next.js
   - Symfony
-  - User Testing
+  - Responsive
 link: https://o-jeux-de-societe.fr/
 ---
 
 
 
-## Level-two heading
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> <a href="https://o-jeux-de-societe.fr/">Visiter le site</a>
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+### Le projet
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+O'JeuxDeSociété est né d'un constat simple : les amateurs de jeux de société manquent souvent d'un outil centralisé pour gérer leur collection, découvrir de nouveaux jeux et partager leur passion. Notre site se propose comme une solution complète, offrant aux utilisateurs un espace unique pour consulter, enregistrer et gérer leur ludothèque, tout en leur permettant de découvrir de nouvelles expériences ludiques basées sur leurs préférences.
+Les utilisateurs peuvent aisément enregistrer leurs jeux, suivre leurs acquisitions et leurs futures envies.
 
-### Level-three heading
+L'aspect communautaire est au cœur du projet, créant un espace d'échange dynamique où les passionnés peuvent partager leurs avis, conseils et expériences de jeu. Cette dimension sociale enrichit l'expérience utilisateur et favorise la création d'une communauté active.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+O'JeuxDeSociété met l'accent sur l'accessibilité, offrant une interface intuitive et responsive, utilisable sur divers appareils.
 
-### Level-three heading
+### Son contexte
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Ce projet a été réalisé durant le dernier mois de ma formation Développeur Web et Web Mobile (DWWM). Il s'agit d'un projet de groupe, mené en collaboration avec quatre autres étudiants. 
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+Cette expérience nous a permis de mettre en pratique les compétences acquises tout au long de notre formation, tout en travaillant dans un environnement simulant les conditions réelles d'une équipe de développement.
 
-#### Level-four heading
+### Les technologies
 
-- We noted this
-- And also this other point
+#### Front-end
+
+![Next.js](/svg/nextjs_icon_dark.svg) Next.js
+![React](/svg/react.svg) React
+![TypeScript](/svg/typescript.svg) TypeScript
+![Redux](/svg/redux.svg) Redux Toolkit
+![TailwindCSS](/svg/tailwindcss.svg) TailwindCSS
+
+#### Back-end
+
+![Symfony](/svg/symfony.svg) Symfony
+![php](/svg/php.svg) PHP
+![Doctrine](/svg/doctrine.svg) Doctrine
+![MariaDB](/svg/mariadb.svg) MariaDB
+
+#### Versionning
+
+![Git](/svg/git.svg) Git
+![Github](/svg/github.svg) Github
+
+### Suite du projet
+
+Le projet n'est actuellement pas actuellement pas complétement terminé, mais le site est quand même fonctionnel
