@@ -56,4 +56,4 @@ Cette expérience nous a permis de mettre en pratique les compétences acquises 
 
 ### Suite du projet
 
-Le projet n'est actuellement pas actuellement pas complétement terminé, mais le site est quand même fonctionnel
+Le projet n'est actuellement pas complétement terminé, mais le site est quand même fonctionnel.
