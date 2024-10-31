@@ -15,7 +15,7 @@ link: https://o-jeux-de-societe.fr/
 
 
 
-> <a href="https://o-jeux-de-societe.fr/">Visiter le site</a>
+> <a href="https://o-jeux-de-societe.fr/" target=_blank>Visiter le site</a>
 
 ### <ins>Le projet</ins>
 
