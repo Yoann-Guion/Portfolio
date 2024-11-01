@@ -25,3 +25,8 @@ Ce projet a été réalisé dans le cadre de ma formation Développeur Web et We
 
 ![React](/svg/react.svg) React  
 ![TypeScript](/svg/typescript.svg) TypeScript
+
+### <ins>Dépot Github</ins>
+
+Pour accèder au dépot Github, <a href="https://github.com/Yoann-Guion/euro-converter" target=_blank>cliquez ici</a>
+
