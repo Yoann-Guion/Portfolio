@@ -63,8 +63,7 @@ import Icon from "../components/Icon.astro";
               <li>1 mois de spécialisation en React</li>
               <li>
                 1 mois de projet en groupe : <a
-                  href="https://o-jeux-de-societe.fr/"
-                  target="_blank">O'Jeux de Société</a
+                  href="https://o-jeux-de-societe.fr/">O'Jeux de Société</a
                 >
               </li>
             </ul>
@@ -256,7 +255,20 @@ import Icon from "../components/Icon.astro";
       <section>
         <h2 class="section-title">Curriculum Vitæ</h2>
         <div class="content content-cv">
-          <img class="content-cv-img" src="/img/CV-YG.png" />
+          <!-- Aperçu CV cliquable -->
+          <img
+            class="content-cv-img cv-thumbnail"
+            id="cvThumbnail"
+            src="/img/CV-YG.png"
+            alt="CV de Yoann Guion petit format"
+          />
+          <!-- CV taille réelle -->
+          <div class="lightbox" id="lightbox">
+            <img
+              src="/img/CV-YG.png"
+              alt="CV de Yoann Guion en taille réelle"
+            />
+          </div>
           <a
             href="/img/cv-yg.pdf"
             download="CV_Yoann-Guion.pdf"
@@ -348,7 +360,49 @@ import Icon from "../components/Icon.astro";
   }
 
   .content-cv-pdf {
-    margin-top: 1.5rem;
+    text-align: center;
+    display: block;
+    margin: 15px auto 0;
+    color: var(--link-color); /* Utilise la couleur définie */
+    font-weight: 600;
+    font-size: var(--text-base); /* Taille de texte de base */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+
+  .cv-thumbnail {
+    width: 50%; /* Valeur par défaut */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: block;
+    margin: auto;
+  }
+
+  .cv-thumbnail:hover {
+    transform: scale(1.05);
+  }
+
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .lightbox img {
+    max-width: 90%; /* Assure que l'image ne touche pas les bords */
+    max-height: 90%;
+    margin: auto; /* Centre l'image */
+    border: 2px solid white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
   }
 
   @media (min-width: 50em) {
@@ -366,4 +420,30 @@ import Icon from "../components/Icon.astro";
       font-size: var(--text-lg);
     }
   }
+
+  @media (max-width: 600px) {
+    .cv-thumbnail {
+      width: 95%;
+    }
+
+    .section-title {
+      margin-bottom: 0.5rem;
+    }
+  }
 </style>
+
+<!-- Script pour l'ouverture / fermeture du cv taille réelle -->
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const thumbnail = document.getElementById("cvThumbnail");
+    const lightbox = document.getElementById("lightbox");
+
+    thumbnail.onclick = () => {
+      lightbox.style.display = "flex";
+    };
+
+    lightbox.onclick = () => {
+      lightbox.style.display = "none";
+    };
+  });
+</script>
