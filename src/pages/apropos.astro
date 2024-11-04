@@ -4,6 +4,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ContactCTA from "../components/ContactCTA.astro";
 import Hero from "../components/Hero.astro";
 import Icon from "../components/Icon.astro";
+import { Image } from "astro:assets";
+import YG_paysage from "../images/YG-paysage.webp";
+import CV_YG from "../images/CV-YG.webp";
 ---
 
 <BaseLayout
@@ -13,11 +16,11 @@ import Icon from "../components/Icon.astro";
   <div class="stack gap-20">
     <main class="wrapper about">
       <Hero title="À propos de moi" tagline="">
-        <img
+        <Image
           width="1553"
           height="873"
-          src="/img/YG-paysage.jpg"
-          alt="Photo de Yoann Guion (à venir)"
+          src={YG_paysage}
+          alt="Photo de Yoann Guion"
         />
       </Hero>
 
@@ -256,18 +259,15 @@ import Icon from "../components/Icon.astro";
         <h2 class="section-title">Curriculum Vitæ</h2>
         <div class="content content-cv">
           <!-- Aperçu CV cliquable -->
-          <img
+          <Image
             class="content-cv-img cv-thumbnail"
             id="cvThumbnail"
-            src="/img/CV-YG.png"
+            src={CV_YG}
             alt="CV de Yoann Guion petit format"
           />
           <!-- CV taille réelle -->
           <div class="lightbox" id="lightbox">
-            <img
-              src="/img/CV-YG.png"
-              alt="CV de Yoann Guion en taille réelle"
-            />
+            <Image src={CV_YG} alt="CV de Yoann Guion en taille réelle" />
           </div>
           <a
             href="/img/cv-yg.pdf"
