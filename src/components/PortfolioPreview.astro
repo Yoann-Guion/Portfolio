@@ -8,25 +8,30 @@ interface Props {
 const { data, slug } = Astro.props.project;
 ---
 
-<a class="card" href={`/work/${slug}`}>
-  <span class="title">{data.title}</span>
-  <img
-    src={data.img}
-    alt={data.img_alt || ""}
-    loading="lazy"
-    decoding="async"
-  />
-</a>
-<a
-  class="project-link"
-  href={data.link}
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <span class="title">Visiter le site</span>
-</a>
+<div class="card-wrapper">
+  <a class="card" href={`/work/${slug}`}>
+    <span class="title">{data.title}</span>
+    <img
+      src={data.img}
+      alt={data.img_alt || ""}
+      loading="lazy"
+      decoding="async"
+    />
+  </a>
+  <a
+    class="project-link"
+    href={data.link}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <span>Visiter le site</span>
+  </a>
+</div>
 
 <style>
+  .card-wrapper {
+    position: relative;
+  }
   .card {
     display: grid;
     grid-template: auto 1fr / auto 1fr;
@@ -44,7 +49,7 @@ const { data, slug } = Astro.props.project;
   }
 
   .card:hover {
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-lg);
   }
 
   .title {
@@ -65,17 +70,19 @@ const { data, slug } = Astro.props.project;
   }
 
   .project-link {
-    display: block;
-    margin-top: 1rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
     padding: 0.5rem 1rem;
     background: var(--gray-999);
     color: var(--gray-200);
     border-radius: 0.375rem;
     text-align: center;
-    font-size: var(--text-sm);
+    font-size: var(--text-md);
     font-weight: 500;
     text-decoration: none;
     transition: background-color var(--theme-transition);
+    z-index: 2;
   }
 
   .project-link:hover {
@@ -86,6 +93,10 @@ const { data, slug } = Astro.props.project;
     .card {
       height: 22rem;
       border-radius: 1.5rem;
+    }
+
+    .project-link {
+      border-radius: 0.9375rem;
     }
 
     .title {
