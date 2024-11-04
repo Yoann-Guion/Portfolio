@@ -371,7 +371,7 @@ import CV_YG from "../images/CV-YG.webp";
   }
 
   .cv-thumbnail {
-    width: 50%; /* Valeur par défaut */
+    width: 50%;
     cursor: pointer;
     transition: transform 0.3s ease;
     display: block;
@@ -397,11 +397,13 @@ import CV_YG from "../images/CV-YG.webp";
   }
 
   .lightbox img {
-    max-width: 90%; /* Assure que l'image ne touche pas les bords */
-    max-height: 90%;
-    margin: auto; /* Centre l'image */
-    border: 2px solid white;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin: auto;
+    padding: 1rem;
     transition: transform 0.3s ease;
   }
 
