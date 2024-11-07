@@ -10,6 +10,8 @@ const {
   title = "Yoann Guion | Portfolio",
   description = "Le site personnel de Yoann Guion",
 } = Astro.props;
+
+const favicon = new URL("../../public/favicon.svg", import.meta.url);
 ---
 
 <meta charset="UTF-8" />
@@ -18,7 +20,7 @@ const {
 <meta name="generator" content={Astro.generator} />
 <title>{title}</title>
 
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/svg+xml" href="/favicon.png" sizes="16x16"/>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
