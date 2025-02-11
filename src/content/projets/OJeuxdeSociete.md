@@ -15,7 +15,10 @@ link: https://o-jeux-de-societe.fr/
 
 
 
-> <a href="https://o-jeux-de-societe.fr/" target=_blank>Visiter le site</a>
+> <a href="https://o-jeux-de-societe.fr/" target=_blank>Visiter le site</a>  
+
+
+ **!!!** Actuellement indisponible, remise en ligne au plus vite
 
 ### <ins>Le projet</ins>
 
