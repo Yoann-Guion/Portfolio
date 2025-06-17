@@ -32,7 +32,7 @@ Ce projet a été réalisé durant le dernier mois de ma formation Développeur 
 
 Cette expérience a été précieuse pour mettre en pratique les compétences acquises tout au long de la formation, dans des conditions proches d'un environnement de développement réel.
 
-### <ins>Les technologies</ins>
+### <ins>Technologies utilisées</ins>
 
 #### Front-end
 

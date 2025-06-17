@@ -1,8 +1,8 @@
 ---
 title: Convertisseur de devises
-publishDate: 2019-05-24 00:00:00
+publishDate: 2024-08-01 00:00:00
 img: /assets/img/euro-converter.webp
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img_alt: Page d'accueil du site de conversion de devises
 description: |
   Application de conversion de devises faite durant ma formation DWWM
 tags:
